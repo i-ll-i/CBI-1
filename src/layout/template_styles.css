@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    background-color: #E7E7E7;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .App {
+  
+    position: relative;
+  
+    width: 100%;
+    height: 100vh;
+  
+  }
+  
+  .Upper_block {
+  
+    position: fixed;
+  
+    width: 100%;
+    height: 70px;
+  
+    padding-left: 10%;
+    padding-right: 10%;
+  
+    background-color: #738A90 ;
+  
+    z-index: 2;
+  
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  
+  }
+  
+  .Block_with_logo {
+  
+    position: relative;
+  
+    width: 50px;
+    height: 100%;
+  
+  }
+  
+  .Upper_block img {
+  
+    position: absolute;
+  
+    margin: auto;
+  
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  
+  }
+  
+  .Content_block {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    padding-top: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+  }
+  
+  .Article_block {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    background-color: white;
+  
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .Article_title {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    padding-bottom: 30px;
+  
+  }
+  
+  .Article_title h2 {
+  
+    font-family: 'OpenSans-Medium';
+    font-size: 25pt;
+  
+    color: #212121;
+  
+  }
+  
+  .Photo_of_the_article {
+  
+    position: relative;
+  
+    width: 100%;
+  
+  }
+  
+  .Photo_of_the_article img {
+  
+    width: 100%;
+  
+  }
+  
+  .Abstract_of_the_article {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    font-family: 'OpenSans-Light';
+    font-size: 18pt;
+  
+    color: #202020;
+  
+  }
+  
+  .Link_to_the_article {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    text-align: center;
+  
+  }
+  
+  .Link_to_the_article a {
+  
+    position: relative;
+  
+    display: flex;
+  
+    width: 250px;
+    height: 60px;
+  
+    justify-content: center;
+  
+    align-items: center;
+    text-align: center;
+  
+    border: 1px solid #91BFBC;
+  
+    text-decoration: none;
+  
+    color: #91BFBC;
+  
+    font-size: 20pt;
+  
+    background-color: white;
+  
+    margin-left: auto;
+    margin-right: 0px;
+  
+  }
+  
+  .Lower_block {
+  
+    position: relative;
+  
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    background-color: #6B8C83 ;
+  
+  }
+  
+  .Full_logo {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    text-align: center;
+  
+  }
+  
+  .Email_block {
+  
+    position: relative;
+  
+    width: 100%;
+  
+    text-align: center;
+  
+  }
+  
+  .Email_block h4 {
+  
+    font-family: 'Gruppo-Regular';
+    font-size: 15pt;
+  
+    color: white;
+  
+  }
